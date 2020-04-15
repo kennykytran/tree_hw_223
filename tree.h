@@ -46,6 +46,6 @@ void tree_print_levelorder(tree* t);
 
 void tree_test(void);
 
-void tree_test_file(FILE*);
+void tree_file_test(FILE*);
 
 #endif /* tree_h */
