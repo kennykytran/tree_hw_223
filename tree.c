@@ -116,7 +116,7 @@ void tree_print_postorder(tree* t);
 //void tree_print_levelorder(tree* t);
 
 void tree_file_test(FILE* fin){
-  const char word[1000];
+  const char word[BUFSIZ];
   tree* t = tree_create();
   
   while ((fscanf(fin,"%s", (char*)word))==1){
